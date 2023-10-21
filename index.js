@@ -32,7 +32,7 @@ const paymentRoute = require('./routes/paymentRouter.js');
 require('./db/conn')();
 
 
-const allowedOrigins = ['http://localhost:3000'];
+const allowedOrigins = ['http://localhost:3000','https://e-learning-user-frontend.vercel.app'];
 app.use(cors({
   origin: allowedOrigins,
   credentials: true
